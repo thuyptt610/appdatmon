@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Order_Admin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FACEF3"
+        android:textColor="#800404"
+        android:textSize="25dp"
+        android:text="ALL ĐƠN HÀNG ĐÃ ĐẶT" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F3EDF2"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lvOrderad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</FrameLayout>

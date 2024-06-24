@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:menu="@menu/menu_thongke"
+        app:title="THỐNG KÊ THÁNG"
+        android:background="#FAADAD"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtdaymonth"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:layout_marginTop="70dp"
+            android:background="#F3F6CF"
+            android:hint="mm/yyyy"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_marginTop="60dp"
+            android:background="#EFC6E8"
+            android:layout_marginLeft="130dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:text="Search" />
+
+    </LinearLayout>
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginBottom="80dp"
+        />
+</RelativeLayout>

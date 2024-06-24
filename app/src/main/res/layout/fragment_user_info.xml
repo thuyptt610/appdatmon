@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_user_info">
+
+
+    <!-- Overlay content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Image View for profile image -->
+        <ImageView
+            android:id="@+id/imageHinhAnhinf"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:layout_marginTop="32dp"/>
+
+        <!-- TextView for Full name -->
+        <TextView
+            android:id="@+id/tvFullNameinf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Full name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- TextView for Email -->
+        <TextView
+            android:id="@+id/tvEmailinf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Email"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:textStyle="italic"/>
+
+        <!-- TextView for Phone -->
+        <TextView
+            android:id="@+id/tvPhoneinf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Phone"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- TextView for Username -->
+        <TextView
+            android:id="@+id/tvUsernameinf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Username"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- TextView for Password -->
+        <TextView
+            android:id="@+id/tvPassWordinf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Password"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- ImageView for add user -->
+        <ImageView
+            android:id="@+id/addUserImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="12dp"
+            android:src="@drawable/cong_icon" />
+
+        <!-- Button for logout -->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="100dp"
+                android:text="Logout"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

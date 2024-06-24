@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/dish"
+            android:icon="@drawable/ic_order"
+            android:title="Món ăn" />
+
+        <item android:id="@+id/donhang"
+            android:icon="@drawable/ic_favorite"
+            android:title="Đơn hàng" />
+
+        <item
+            android:id="@+id/khachhang"
+            android:icon="@drawable/ic_order"
+            android:title="Khách hàng" />
+        <item
+            android:id="@+id/thongke"
+            android:icon="@drawable/ic_profile"
+            android:title="Thông kê sản phẩm" />
+        <item
+            android:id="@+id/thongkethang"
+            android:icon="@drawable/ic_profile"
+            android:title="Thông kê tháng" />
+        <item
+            android:id="@+id/chatbox"
+            android:icon="@drawable/ic_profile"
+            android:title="Message ChatBox" />
+    </group>
+    <group >
+        <item android:title="Đăng xuất" >
+            <menu >
+                <item android:id="@+id/logout61"
+                    android:icon="@drawable/ic_order"
+                    android:title="Logout" />
+
+
+            </menu>
+        </item>
+    </group>
+</menu>

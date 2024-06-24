@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "835841497339",
+    "firebase_url": "https://democt4thuy-default-rtdb.firebaseio.com",
+    "project_id": "democt4thuy",
+    "storage_bucket": "democt4thuy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835841497339:android:32acbb346af804ad18b85e",
+        "android_client_info": {
+          "package_name": "com.example.doan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtWV5Tv3MBIej9b6U3RfaCINGV4PMbJX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835841497339:android:39cca2b1bcf513cd18b85e",
+        "android_client_info": {
+          "package_name": "com.example.lab11_phamthithanhthuy_2001216196"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtWV5Tv3MBIej9b6U3RfaCINGV4PMbJX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
